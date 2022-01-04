@@ -1,0 +1,14 @@
+{
+  "name": "vigilant-octo-couscous",
+  "version": "1.0.0",
+  "main": "index.js",
+  "private": true,
+  "workspaces": ["server", "client"],
+  "scripts": {
+    "start:server": "yarn --cwd ./server run start",
+    "build:client": "yarn --cwd ./client run build"
+  },
+  "repository": "https://github.com/OpeAbidemi/vigilant-octo-couscous.git",
+  "author": "Harry Bart <animationsbart@gmail.com>",
+  "license": "MIT"
+}
